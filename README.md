@@ -1,2 +1,2 @@
 # TestFirst
-TestFirst.org's BDD sample problems
+TestFirst.org's Behavior Driven Development sample problems using RSpec.

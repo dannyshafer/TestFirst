@@ -1,12 +1,12 @@
-def echo(x) #repeats back
+def echo(x)
   x
 end
 
-def shout(x) #makes upcase
+def shout(x)
   x.upcase
 end
 
-def repeat(x, n = 2) #says twice unless otherwise specified
+def repeat(x, n = 2)
   ((x + " ") * n).strip
 end
 

@@ -1,0 +1,16 @@
+def vowel?(letter)
+  "aeiouy".include? letter
+end
+
+def translate(word)
+  words = word.split(" ")
+  words.each do |i|
+    if i[0].vowel?
+      i + 'ay'
+    end
+    words << i
+  end
+  words
+end
+
+translate("apple")
